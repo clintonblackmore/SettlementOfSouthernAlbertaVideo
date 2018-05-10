@@ -14,16 +14,16 @@
 			"marker": 0,
 			"list_width": 320,
 			"hor_scroll": 0,
-			"zoom": 16,
+			"zoom": 32,
 			"region_start": "null",
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ -291.05453, 775.81208, 418.54954 ],
-			"angle_xy": 240.87503,
-			"angle_z": -3.125,
+			"focus": [ -145.20419, 540.95386, 341.95172 ],
+			"angle_xy": 289.89609,
+			"angle_z": 10.02486,
 			"roll": 0,
-			"zoom": 99.99986
+			"zoom": 255.00881
 		}
 	},
 	"background": {
@@ -40,7 +40,7 @@
 		"sunlight_range": 2000,
 		"sunlight_follow": false,
 		"sky_clouds_show": true,
-		"sky_clouds_flat": false,
+		"sky_clouds_flat": true,
 		"sky_clouds_tex": "default",
 		"sky_clouds_speed": 1,
 		"sky_clouds_z": 1000,
@@ -79,9 +79,529 @@
 				"repeat_enable": false,
 				"repeat": [ 1, 1, 1 ]
 			}
+		},
+		{
+			"id": "X85DV8ARR9JIW60M",
+			"type": "scenery",
+			"name": "",
+			"scenery": "3ZRT9E622T3622Z5",
+			"block": {
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		},
+		{
+			"id": "E04HI550VW93U2G0",
+			"type": "char",
+			"name": "",
+			"model_tex": "KJF4YGV40OY03MHZ",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
+		},
+		{
+			"id": "O365LI8JI8M70Y2E",
+			"type": "char",
+			"name": "",
+			"model_tex": "44I02M7W0AP6IYY2",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
+		},
+		{
+			"id": "PB0HPG94D66OK3FA",
+			"type": "block",
+			"name": "",
+			"block": {
+				"name": "wool",
+				"state": {
+					"color": "white"
+				},
+				"legacy_id": 35,
+				"legacy_data": 0,
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		},
+		{
+			"id": "843R4WCRAAFPU62S",
+			"type": "block",
+			"name": "",
+			"block": {
+				"name": "fence",
+				"state": {
+				},
+				"legacy_id": 85,
+				"legacy_data": 0,
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		},
+		{
+			"id": "C64TR2A85H9M5835",
+			"type": "char",
+			"name": "",
+			"model_tex": "44I02M7W0AP6IYY2",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
+		},
+		{
+			"id": "2AO882PJ69N766S4",
+			"type": "char",
+			"name": "",
+			"model_tex": "KJF4YGV40OY03MHZ",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
+		},
+		{
+			"id": "0YFL57OHI3Z97899",
+			"type": "char",
+			"name": "",
+			"model_tex": "KJF4YGV40OY03MHZ",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
+		},
+		{
+			"id": "CVJVGBV543I9RZ8F",
+			"type": "char",
+			"name": "",
+			"model_tex": "KJF4YGV40OY03MHZ",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				}
+			}
 		}
 	],
 	"timelines": [
+		{
+			"id": "F3VO4OKH7SQ1DT4D",
+			"type": "camera",
+			"name": "",
+			"temp": "null",
+			"color": "#800018",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": -99.45261,
+				"POS_Y": 421.75505,
+				"POS_Z": 676.07065,
+				"ROT_X": 38.78241,
+				"ROT_Z": 209.00522
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -145.20419,
+					"POS_Y": 341.95172,
+					"POS_Z": 540.95387,
+					"ROT_X": 20.90741,
+					"ROT_Z": 211.25522,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"80": {
+					"POS_X": 285.6886,
+					"POS_Y": 991.86507,
+					"POS_Z": 985.93302,
+					"ROT_X": 33.53241,
+					"ROT_Z": 237.25522
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 11,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true
+		},
+		{
+			"id": "O84F10AS1H51U5LN",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#803F00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_Y": -18.41321,
+					"ROT_Z": 57.84183,
+					"BEND_ANGLE_X": 47.53951
+				}
+			},
+			"parent": "ZJ1D47PW42E9362E",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "11HEDKK1H2AL2Y74",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#80005A",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -83.17427,
+					"ROT_Y": -72.48598,
+					"ROT_Z": 57.55106,
+					"BEND_ANGLE_X": 103.39224
+				}
+			},
+			"parent": "ZJ1D47PW42E9362E",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "J2XQ36VGB1L1RNWE",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#804E00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "ZJ1D47PW42E9362E",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "40YS784X8186ARN8",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#750080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 159.59134,
+					"ROT_Z": -50.27351,
+					"BEND_ANGLE_X": 60.42757
+				}
+			},
+			"parent": "J2XQ36VGB1L1RNWE",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "OEZ21U3A2Z304NJK",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#720080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_Y": -76.40593,
+					"BEND_ANGLE_X": 96.44865
+				}
+			},
+			"parent": "J2XQ36VGB1L1RNWE",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "1Y8GOQ8GTVG0C940",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#80001B",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "J2XQ36VGB1L1RNWE",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "81H9YZ38N15C3774",
+			"type": "bodypart",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#00800C",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "ZJ1D47PW42E9362E",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "1Y8GOQ8GTVG0C940",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "ZJ1D47PW42E9362E",
+			"type": "char",
+			"name": "",
+			"temp": "CVJVGBV543I9RZ8F",
+			"color": "#0C0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"81H9YZ38N15C3774",
+				"1Y8GOQ8GTVG0C940",
+				"OEZ21U3A2Z304NJK",
+				"40YS784X8186ARN8",
+				"J2XQ36VGB1L1RNWE",
+				"11HEDKK1H2AL2Y74",
+				"O84F10AS1H51U5LN"
+			],
+			"default_values": {
+				"POS_X": -967.3934,
+				"POS_Y": -404.69402,
+				"POS_Z": 289.25036
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -192.91519,
+					"POS_Y": 254.63939,
+					"POS_Z": 511.27162
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 10,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
 		{
 			"id": "C355ZW18112332SW",
 			"type": "bodypart",
@@ -89,7 +609,7 @@
 			"temp": "7K8E6FK5YZ75WS8D",
 			"color": "#807800",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "bottom",
 			"part_of": "7K8E6FK5YZ75WS8D",
@@ -129,7 +649,7 @@
 			"temp": "7K8E6FK5YZ75WS8D",
 			"color": "#00801E",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "top",
 			"part_of": "7K8E6FK5YZ75WS8D",
@@ -169,7 +689,7 @@
 			"temp": "7K8E6FK5YZ75WS8D",
 			"color": "#800F00",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model": {
 				"name": "chest",
@@ -222,7 +742,7 @@
 			"temp": "MC42P619RA0319U0",
 			"color": "#098000",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "bottom",
 			"part_of": "MC42P619RA0319U0",
@@ -262,7 +782,7 @@
 			"temp": "MC42P619RA0319U0",
 			"color": "#800F00",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "top",
 			"part_of": "MC42P619RA0319U0",
@@ -302,7 +822,7 @@
 			"temp": "MC42P619RA0319U0",
 			"color": "#030080",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model": {
 				"name": "chest",
@@ -355,7 +875,7 @@
 			"temp": "41IF47XZ3K17G29Y",
 			"color": "#803300",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "bottom",
 			"part_of": "41IF47XZ3K17G29Y",
@@ -395,7 +915,7 @@
 			"temp": "41IF47XZ3K17G29Y",
 			"color": "#800027",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "top",
 			"part_of": "41IF47XZ3K17G29Y",
@@ -435,7 +955,7 @@
 			"temp": "41IF47XZ3K17G29Y",
 			"color": "#488000",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model": {
 				"name": "chest",
@@ -488,7 +1008,7 @@
 			"temp": "01R50H19GQUEW2RL",
 			"color": "#006C80",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "bottom",
 			"part_of": "01R50H19GQUEW2RL",
@@ -528,7 +1048,7 @@
 			"temp": "01R50H19GQUEW2RL",
 			"color": "#570080",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "top",
 			"part_of": "01R50H19GQUEW2RL",
@@ -568,7 +1088,7 @@
 			"temp": "01R50H19GQUEW2RL",
 			"color": "#008042",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model": {
 				"name": "chest",
@@ -621,7 +1141,7 @@
 			"temp": "966X3V50VW4DYK6K",
 			"color": "#008048",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"parts": [
 				"01R50H19GQUEW2RL",
@@ -659,6 +1179,2101 @@
 			"fog": true,
 			"wind": false,
 			"wind_terrain": true
+		},
+		{
+			"id": "XIX166GKZ0QR51ZX",
+			"type": "scenery",
+			"name": "",
+			"temp": "X85DV8ARR9JIW60M",
+			"color": "#803000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+			],
+			"default_values": {
+				"POS_X": -151.20635,
+				"POS_Y": 638.52409,
+				"POS_Z": 728.01371
+			},
+			"keyframes": {
+				"45": {
+					"POS_X": -784.51953,
+					"POS_Y": 956.44351,
+					"POS_Z": 365.18686,
+					"ROT_Y": -5.03922,
+					"ROT_Z": -117.56449
+				},
+				"51": {
+					"POS_X": -784.51953,
+					"POS_Y": 956.44351,
+					"POS_Z": 367.96877,
+					"ROT_Z": -117
+				},
+				"64": {
+					"POS_X": -784.51953,
+					"POS_Y": 956.44351,
+					"POS_Z": 390.48754,
+					"ROT_Y": -2.30222,
+					"ROT_Z": -117.56449
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 272, 0, 152 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		},
+		{
+			"id": "79BU5J2G8671BY47",
+			"type": "char",
+			"name": "Ninja swim",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#806C00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"ZU17099O5K4ZSI30",
+				"2G0I00UV7C1WH030",
+				"3L2N1P7T67L386E7",
+				"D0EE8J20BA3ZT811",
+				"45ZGC07VQ62G2XE9",
+				"R5X463HD13U35H67",
+				"6287198KZN9TBA5L"
+			],
+			"default_values": {
+				"POS_X": -784.51953,
+				"POS_Y": 956.44354,
+				"POS_Z": 351.96878
+			},
+			"keyframes": {
+				"51": {
+					"POS_X": -345.09602,
+					"POS_Y": 836.01105,
+					"POS_Z": 457.85487,
+					"ROT_X": 60.92261,
+					"ROT_Z": -187.42674
+				},
+				"61": {
+					"POS_X": -345.09602,
+					"POS_Y": 819.94668,
+					"POS_Z": 457.85487,
+					"ROT_X": 63.91742,
+					"ROT_Z": -187.42674
+				},
+				"71": {
+					"POS_X": -345.09602,
+					"POS_Y": 789.50199,
+					"POS_Z": 457.85487,
+					"ROT_X": 63.91742,
+					"ROT_Z": -187.42674
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "ZU17099O5K4ZSI30",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#807800",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "2G0I00UV7C1WH030",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "2G0I00UV7C1WH030",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#80000C",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+				"51": {
+					"ROT_X": -32.51254
+				},
+				"61": {
+					"ROT_X": 17.23695
+				},
+				"71": {
+					"ROT_X": -15.84502
+				}
+			},
+			"parent": "45ZGC07VQ62G2XE9",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "3L2N1P7T67L386E7",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#800006",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+				"51": {
+					"ROT_X": -158.57215
+				},
+				"61": {
+					"ROT_X": -8.11118
+				},
+				"71": {
+					"ROT_X": 217.00935
+				}
+			},
+			"parent": "45ZGC07VQ62G2XE9",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "D0EE8J20BA3ZT811",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#248000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+				"51": {
+					"BEND_ANGLE_X": 21.03375
+				},
+				"61": {
+					"ROT_X": 174.60088,
+					"BEND_ANGLE_X": 21.03375
+				},
+				"71": {
+					"ROT_X": 359.8642,
+					"BEND_ANGLE_X": 21.03375
+				}
+			},
+			"parent": "45ZGC07VQ62G2XE9",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "45ZGC07VQ62G2XE9",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#006980",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "79BU5J2G8671BY47",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "R5X463HD13U35H67",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#008036",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "79BU5J2G8671BY47",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "6287198KZN9TBA5L",
+			"type": "bodypart",
+			"name": "",
+			"temp": "E04HI550VW93U2G0",
+			"color": "#000080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "79BU5J2G8671BY47",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "79BU5J2G8671BY47",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "040101R8LP4DB244",
+			"type": "char",
+			"name": "Pirat walk",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#338000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"Z091CO95B1Y3P594",
+				"7U70201UM1Y72R37",
+				"771OLVVI937R6S30",
+				"K04ZBP8AH0TP95C1",
+				"GP5D81A6U3AU2791",
+				"SOSJ3865U7411A1S",
+				"8D3268R7CMU8NCP7"
+			],
+			"default_values": {
+				"POS_X": -348.56039,
+				"POS_Y": 816.16962,
+				"POS_Z": 452.54666
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -196.20791,
+					"POS_Y": 266.64137,
+					"POS_Z": 454.48503,
+					"ROT_Z": 56.83766
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 3,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "Z091CO95B1Y3P594",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#008054",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_Z": 180
+				},
+				"11": {
+					"ROT_Z": 180
+				}
+			},
+			"parent": "7U70201UM1Y72R37",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "7U70201UM1Y72R37",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#007580",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 17.41214,
+					"ROT_Y": -0.28055
+				},
+				"5": {
+					"ROT_X": -3.52396,
+					"ROT_Y": -0.28055
+				},
+				"11": {
+					"ROT_X": 25.26923,
+					"ROT_Y": -0.28055
+				},
+				"18": {
+					"ROT_X": 8.76913,
+					"ROT_Y": -0.28055
+				},
+				"22": {
+					"ROT_X": 22.42105,
+					"ROT_Y": -0.28055
+				}
+			},
+			"parent": "GP5D81A6U3AU2791",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "771OLVVI937R6S30",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#807E00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 20.16815,
+					"ROT_Y": -2.62181,
+					"BEND_ANGLE_X": 56.99641
+				}
+			},
+			"parent": "GP5D81A6U3AU2791",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "K04ZBP8AH0TP95C1",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#008006",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_Y": 38.65637,
+					"ROT_Z": 31.29431,
+					"BEND_ANGLE_X": 44.10916
+				}
+			},
+			"parent": "GP5D81A6U3AU2791",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "GP5D81A6U3AU2791",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#728000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -27.00378,
+					"ROT_Y": -8.88895,
+					"BEND_ANGLE_X": 12.14041,
+					"BEND_ANGLE_Y": -12.59125,
+					"BEND_ANGLE_Z": -28.3649
+				}
+			},
+			"parent": "040101R8LP4DB244",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "SOSJ3865U7411A1S",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#807800",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -88.33151,
+					"ROT_Y": -20.63641,
+					"ROT_Z": 10.75745,
+					"BEND_ANGLE_X": 13.79581
+				}
+			},
+			"parent": "040101R8LP4DB244",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "8D3268R7CMU8NCP7",
+			"type": "bodypart",
+			"name": "",
+			"temp": "O365LI8JI8M70Y2E",
+			"color": "#608000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "040101R8LP4DB244",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -82.89732,
+					"ROT_Y": 21.71201,
+					"ROT_Z": 35.08662,
+					"BEND_ANGLE_X": 71.83298
+				}
+			},
+			"parent": "040101R8LP4DB244",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "HL2PTY0PSI49R30M",
+			"type": "block",
+			"name": "",
+			"temp": "PB0HPG94D66OK3FA",
+			"color": "#008078",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": -348.56039,
+				"POS_Y": 287.32349,
+				"POS_Z": 520.47955
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -200,
+					"POS_Y": 283.0241,
+					"POS_Z": 515.95918,
+					"ROT_Y": 90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05
+				},
+				"5": {
+					"POS_X": -219.67626,
+					"POS_Y": 269.62937,
+					"POS_Z": 515.95918,
+					"ROT_Y": 90,
+					"ROT_Z": -65.79276,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05
+				},
+				"12": {
+					"POS_X": -200,
+					"POS_Y": 283.0241,
+					"POS_Z": 515.95918,
+					"ROT_Y": 90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 4,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		},
+		{
+			"id": "8HOBT3249OOAPU0B",
+			"type": "block",
+			"name": "",
+			"temp": "843R4WCRAAFPU62S",
+			"color": "#80005D",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": -141.87772,
+				"POS_Y": 342.38422,
+				"POS_Z": 427.24911
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -199.4325,
+					"POS_Y": 258.68506,
+					"POS_Z": 458.03059,
+					"SCA_X": 0.75,
+					"SCA_Y": 0.75,
+					"SCA_Z": 5
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 5,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		},
+		{
+			"id": "44FXM514RRNQ5S99",
+			"type": "char",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#006C80",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"RY01UQD239DD4OA3",
+				"3ZDH6HNH5QN514B1",
+				"1BEJE73B3P7Y6LG2",
+				"GG102OOLQ4831WUT",
+				"12EHRX7ZJDTX0V6C",
+				"E0F4XBV7H79JFCG8",
+				"67Y55387EC1CZUFN"
+			],
+			"default_values": {
+				"POS_X": -348.56039,
+				"POS_Y": 287.32349,
+				"POS_Z": 503.07092
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -321.8453,
+					"POS_Z": 473.36139,
+					"ROT_Z": -15.25099
+				},
+				"11": {
+					"POS_X": -321.8453,
+					"POS_Z": 473.36139,
+					"ROT_Z": 1.05643
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 6,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "RY01UQD239DD4OA3",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#005480",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "3ZDH6HNH5QN514B1",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "3ZDH6HNH5QN514B1",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#806900",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "12EHRX7ZJDTX0V6C",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "1BEJE73B3P7Y6LG2",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#368000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 35.38426,
+					"ROT_Z": 106.81879,
+					"BEND_ANGLE_X": 69.50449
+				}
+			},
+			"parent": "12EHRX7ZJDTX0V6C",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "GG102OOLQ4831WUT",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#128000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 30.35321,
+					"ROT_Z": -89.31845,
+					"BEND_ANGLE_X": 49.73712
+				}
+			},
+			"parent": "12EHRX7ZJDTX0V6C",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "12EHRX7ZJDTX0V6C",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#001580",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "44FXM514RRNQ5S99",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "E0F4XBV7H79JFCG8",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#00805A",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "44FXM514RRNQ5S99",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "67Y55387EC1CZUFN",
+			"type": "bodypart",
+			"name": "",
+			"temp": "C64TR2A85H9M5835",
+			"color": "#450080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "44FXM514RRNQ5S99",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "44FXM514RRNQ5S99",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "C86L259S735HL1Y2",
+			"type": "char",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#002A80",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"0U831L99UV607E73",
+				"HB2L58OFO14FZ8A3",
+				"G23J9OZ8FD545Y1N",
+				"0WF6XFL952FEDS2S",
+				"HYF2M1645NFIWJAN",
+				"PVUTFHT0P1Q9JH31",
+				"66EM080NB003FLNS"
+			],
+			"default_values": {
+				"POS_X": -321.84531,
+				"POS_Y": 287.32349,
+				"POS_Z": 457.36139
+			},
+			"keyframes": {
+				"20": {
+					"POS_X": -459.00638,
+					"POS_Z": 464.36454,
+					"ROT_Z": 31.97429
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 7,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "0U831L99UV607E73",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#0C8000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "HB2L58OFO14FZ8A3",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "HB2L58OFO14FZ8A3",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#630080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+				"29": {
+				},
+				"37": {
+					"ROT_Y": 2.29126
+				}
+			},
+			"parent": "HYF2M1645NFIWJAN",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "G23J9OZ8FD545Y1N",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#2A0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "HYF2M1645NFIWJAN",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "0WF6XFL952FEDS2S",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#800027",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+				"29": {
+				},
+				"37": {
+					"ROT_X": -147.58619,
+					"ROT_Z": 19.90692,
+					"BEND_ANGLE_X": 42.58035
+				},
+				"40": {
+					"ROT_X": -147.58619,
+					"ROT_Z": 19.90692,
+					"BEND_ANGLE_X": 59.88253
+				},
+				"44": {
+					"ROT_X": -147.58619,
+					"ROT_Z": 19.90692,
+					"BEND_ANGLE_X": 42.79372
+				}
+			},
+			"parent": "HYF2M1645NFIWJAN",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "HYF2M1645NFIWJAN",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#00801E",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "C86L259S735HL1Y2",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "PVUTFHT0P1Q9JH31",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#80005D",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "C86L259S735HL1Y2",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "66EM080NB003FLNS",
+			"type": "bodypart",
+			"name": "",
+			"temp": "2AO882PJ69N766S4",
+			"color": "#807E00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "C86L259S735HL1Y2",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "C86L259S735HL1Y2",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "4X5IB58FE1140214",
+			"type": "char",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#008039",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"1K63U58X6W4E4009",
+				"103F25V9QO2T63DR",
+				"SH4T3G30A2701I2R",
+				"Y420R6M2ZIK4Z351",
+				"7Q0S10ZL8F6HG33T",
+				"2K7021MW5D3L09ND",
+				"D7Q391XDL0R1Y653"
+			],
+			"default_values": {
+				"POS_X": -459.00638,
+				"POS_Y": 287.32349,
+				"POS_Z": 472.36453
+			},
+			"keyframes": {
+				"36": {
+					"POS_Y": 329.56007,
+					"POS_Z": 464.04029,
+					"ROT_Z": 161.96304
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 8,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "1K63U58X6W4E4009",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#008039",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "103F25V9QO2T63DR",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "103F25V9QO2T63DR",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#1B0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+				"25": {
+					"ROT_X": 23.16112
+				},
+				"31": {
+					"ROT_X": 3.1461
+				},
+				"44": {
+					"ROT_X": 3.1461,
+					"ROT_Z": -24.07307
+				}
+			},
+			"parent": "7Q0S10ZL8F6HG33T",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "SH4T3G30A2701I2R",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#800027",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+				"27": {
+					"BEND_ANGLE_X": 6.41397
+				},
+				"37": {
+					"ROT_Z": -52.05379,
+					"BEND_ANGLE_X": 23.62733
+				}
+			},
+			"parent": "7Q0S10ZL8F6HG33T",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "Y420R6M2ZIK4Z351",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#00805A",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "7Q0S10ZL8F6HG33T",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "7Q0S10ZL8F6HG33T",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#80004B",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "4X5IB58FE1140214",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "2K7021MW5D3L09ND",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#800057",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "4X5IB58FE1140214",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "D7Q391XDL0R1Y653",
+			"type": "bodypart",
+			"name": "",
+			"temp": "0YFL57OHI3Z97899",
+			"color": "#801E00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "4X5IB58FE1140214",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "4X5IB58FE1140214",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true
+		},
+		{
+			"id": "I3CH1B7LJ55LGHOH",
+			"type": "camera",
+			"name": "",
+			"temp": "null",
+			"color": "#004E80",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 120.67575,
+				"POS_Y": 944.85876,
+				"POS_Z": 873.79065,
+				"ROT_X": 29.525,
+				"ROT_Z": 580.62503
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": -98.89734,
+					"POS_Y": 360.52605,
+					"POS_Z": 557.99501,
+					"ROT_X": 30.00332,
+					"ROT_Y": 2.01135,
+					"CAM_WIDTH": 1,
+					"CAM_HEIGHT": 1,
+					"TRANSITION": "instant"
+				},
+				"22": {
+					"POS_X": -98.89734,
+					"POS_Y": 360.52605,
+					"POS_Z": 557.99501,
+					"ROT_X": 18.16031,
+					"ROT_Y": 2.01135,
+					"ROT_Z": 631.98556,
+					"CAM_WIDTH": 1,
+					"CAM_HEIGHT": 1,
+					"TRANSITION": "instant"
+				},
+				"40": {
+					"POS_X": -310.78865,
+					"POS_Y": 360.52605,
+					"POS_Z": 557.99501,
+					"ROT_X": 19.31843,
+					"ROT_Y": 2.01135,
+					"ROT_Z": 603.15623,
+					"CAM_WIDTH": 1,
+					"CAM_HEIGHT": 1,
+					"TRANSITION": "instant"
+				},
+				"51": {
+					"POS_X": -310.78865,
+					"POS_Y": 360.52605,
+					"POS_Z": 557.99501,
+					"ROT_X": -0.41989,
+					"ROT_Y": 2.01135,
+					"ROT_Z": 688.84531,
+					"CAM_WIDTH": 1,
+					"CAM_HEIGHT": 1,
+					"TRANSITION": "instant"
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 9,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true
 		}
 	],
 	"resources": [
@@ -667,6 +3282,24 @@
 			"type": "schematic",
 			"filename": "Piece of New World 3.schematic",
 			"scenery_tl_add": true
+		},
+		{
+			"id": "3ZRT9E622T3622Z5",
+			"type": "schematic",
+			"filename": "Piece of New World a.schematic",
+			"scenery_tl_add": true
+		},
+		{
+			"id": "KJF4YGV40OY03MHZ",
+			"type": "skin",
+			"filename": "Ninja noise.png",
+			"player_skin": true
+		},
+		{
+			"id": "44I02M7W0AP6IYY2",
+			"type": "skin",
+			"filename": "Scurvy - Noisy.png",
+			"player_skin": true
 		}
 	]
 }
