@@ -5,13 +5,13 @@
 		"name": "Snowstorm Scene",
 		"author": "",
 		"description": "",
-		"video_width": 1280,
-		"video_height": 720,
+		"video_width": 1920,
+		"video_height": 1080,
 		"video_keep_aspect_ratio": true,
 		"tempo": 18,
 		"timeline": {
 			"repeat": false,
-			"marker": 48,
+			"marker": 132,
 			"list_width": 320,
 			"hor_scroll": 0,
 			"zoom": 6,
@@ -19,11 +19,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 4541.60532, 1446.15457, -3067.42914 ],
-			"angle_xy": 234.13026,
-			"angle_z": 61.9,
+			"focus": [ -134.0206, 448.63171, 254.43683 ],
+			"angle_xy": 208.79167,
+			"angle_z": 60.55875,
 			"roll": 0,
-			"zoom": 10320.30907
+			"zoom": 111.17434
 		}
 	},
 	"background": {
@@ -50,16 +50,16 @@
 		"ground_name": "blocks/grass_top",
 		"ground_tex": "default",
 		"biome": "plains",
-		"sky_color": "#91B9FF",
+		"sky_color": "#CEDDF7",
 		"sky_clouds_color": "#FFFFFF",
 		"sunlight_color": "#FFFFFF",
 		"ambient_color": "#808080",
 		"night_color": "#0E0E18",
 		"fog_show": true,
 		"fog_sky": true,
-		"fog_color_custom": false,
-		"fog_color": "#91B9FF",
-		"fog_distance": 10000,
+		"fog_color_custom": true,
+		"fog_color": "#D6E5FF",
+		"fog_distance": 3377.00935,
 		"fog_size": 2000,
 		"fog_height": 1000,
 		"wind": true,
@@ -326,9 +326,430 @@
 				"detail": 32,
 				"face_camera": false
 			}
+		},
+		{
+			"id": "VOFIGD9EB0NA0SH3",
+			"type": "particles",
+			"name": "Comet Particles",
+			"particles": {
+				"spawn_constant": true,
+				"spawn_amount": 1500,
+				"spawn_region_use": false,
+				"spawn_region_type": "sphere",
+				"spawn_region_sphere_radius": 100,
+				"spawn_region_cube_size": 200,
+				"spawn_region_box_size": [ 200, 200, 200 ],
+				"bounding_box_type": "none",
+				"bounding_box_ground_z": 0,
+				"bounding_box_custom_start": [ -100, -100, -100 ],
+				"bounding_box_custom_end": [ 100, 100, 100 ],
+				"bounding_box_relative": false,
+				"destroy_at_animation_finish": true,
+				"destroy_at_amount": true,
+				"destroy_at_amount_val": 300,
+				"destroy_at_time": false,
+				"destroy_at_time_seconds": 5,
+				"destroy_at_time_israndom": false,
+				"destroy_at_time_random_min": 5,
+				"destroy_at_time_random_max": 10,
+				"types": [
+					{
+						"id": "IRFS30XBK3118OXH",
+						"name": "Fire",
+						"temp": "null",
+						"text": "Sample text",
+						"spawn_rate": 0.8,
+						"sprite_tex": "default",
+						"sprite_tex_image": 0,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 48,
+						"sprite_frame_end": 49,
+						"sprite_animation_speed": 1,
+						"sprite_animation_speed_israndom": false,
+						"sprite_animation_speed_random_min": 5,
+						"sprite_animation_speed_random_max": 10,
+						"sprite_animation_onend": 0,
+						"spd_extend": true,
+						"spd": [ 0, -20, 0 ],
+						"spd_israndom": [ 1, 1, 1 ],
+						"spd_random_min": [ -10, -10, -10 ],
+						"spd_random_max": [ 10, 0, 10 ],
+						"spd_add": [ 0, 1, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 0.5, 1, 0.5 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"scale": 10,
+						"scale_israndom": false,
+						"scale_random_min": 0.5,
+						"scale_random_max": 0.5,
+						"scale_add": -0.25,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#FCFF00",
+						"color_random_end": "#FF0000",
+						"color_mix_enabled": true,
+						"color_mix": "#FF0000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					},
+					{
+						"id": "1V2YJ7F996XP65O1",
+						"name": "Smoke",
+						"temp": "null",
+						"text": "Sample text",
+						"spawn_rate": 0.2,
+						"sprite_tex": "default",
+						"sprite_tex_image": 0,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 7,
+						"sprite_frame_end": 0,
+						"sprite_animation_speed": 2,
+						"sprite_animation_speed_israndom": true,
+						"sprite_animation_speed_random_min": 4,
+						"sprite_animation_speed_random_max": 8,
+						"sprite_animation_onend": 0,
+						"spd_extend": true,
+						"spd": [ 0, 20, 0 ],
+						"spd_israndom": [ 1, 0, 1 ],
+						"spd_random_min": [ -10, -20, -10 ],
+						"spd_random_max": [ 10, 20, 10 ],
+						"spd_add": [ 0, 0, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 0.5, 1, 0.5 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"scale": 1,
+						"scale_israndom": true,
+						"scale_random_min": 1,
+						"scale_random_max": 10,
+						"scale_add": 0,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#808080",
+						"color_random_end": "#000000",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					}
+				]
+			}
+		},
+		{
+			"id": "WJM3ZQ1A8JV1WLO3",
+			"type": "particles",
+			"name": "Snow Particles",
+			"particles": {
+				"spawn_constant": false,
+				"spawn_amount": 2000,
+				"spawn_region_use": true,
+				"spawn_region_type": "box",
+				"spawn_region_sphere_radius": 100,
+				"spawn_region_cube_size": 200,
+				"spawn_region_box_size": [ 100, 50, 0 ],
+				"bounding_box_type": "ground",
+				"bounding_box_ground_z": 1,
+				"bounding_box_custom_start": [ -100, -100, -100 ],
+				"bounding_box_custom_end": [ 100, 100, 100 ],
+				"bounding_box_relative": false,
+				"destroy_at_animation_finish": false,
+				"destroy_at_amount": true,
+				"destroy_at_amount_val": 300,
+				"destroy_at_time": true,
+				"destroy_at_time_seconds": 5,
+				"destroy_at_time_israndom": false,
+				"destroy_at_time_random_min": 1,
+				"destroy_at_time_random_max": 3,
+				"types": [
+					{
+						"id": "3TF5R4VH524G8T41",
+						"name": "Snow",
+						"temp": "418HH1MV9NBVE2Y9",
+						"text": "Sample text",
+						"spawn_rate": 1,
+						"sprite_tex": "BFVLYUP831N8JS94",
+						"sprite_tex_image": 0,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 161,
+						"sprite_frame_end": 161,
+						"sprite_animation_speed": 2.2,
+						"sprite_animation_speed_israndom": false,
+						"sprite_animation_speed_random_min": 5,
+						"sprite_animation_speed_random_max": 10,
+						"sprite_animation_onend": 1,
+						"spd_extend": true,
+						"spd": [ -60, -20, 100 ],
+						"spd_israndom": [ 0, 0, 0 ],
+						"spd_random_min": [ -20, -20, -20 ],
+						"spd_random_max": [ 20, 20, 20 ],
+						"spd_add": [ 0, 0, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 0.95, 1, 0.95 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"scale": 0.15,
+						"scale_israndom": false,
+						"scale_random_min": 0.5,
+						"scale_random_max": 2,
+						"scale_add": -0.45,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.05,
+						"alpha_add_random_max": -0.01,
+						"color": "#FFFFFF",
+						"color_israndom": false,
+						"color_random_start": "#808080",
+						"color_random_end": "#FFFFFF",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": false,
+						"bounce_factor": 0.5,
+						"orbit": false
+					}
+				]
+			}
+		},
+		{
+			"id": "418HH1MV9NBVE2Y9",
+			"type": "item",
+			"name": "Snowflake 3",
+			"item": {
+				"tex": "IREXQVZ5OQMV177G",
+				"slot": 67,
+				"3d": true,
+				"face_camera": false,
+				"bounce": false
+			}
 		}
 	],
 	"timelines": [
+		{
+			"id": "59L5T47F9FT3XE6Z",
+			"type": "particles",
+			"name": "Snow",
+			"temp": "WJM3ZQ1A8JV1WLO3",
+			"color": "#800042",
+			"hide": true,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": -249.74723,
+				"POS_Y": 342.93348,
+				"POS_Z": 463.68589
+			},
+			"keyframes": {
+				"66": {
+					"POS_X": -208.7125,
+					"POS_Y": 340.23902,
+					"POS_Z": 494.25604
+				},
+				"81": {
+					"POS_X": -188.78291,
+					"POS_Y": 340.23902,
+					"POS_Z": 510.5305
+				},
+				"102": {
+					"POS_X": -208.7125,
+					"POS_Y": 340.23902,
+					"POS_Z": 494.25604
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 20,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		},
+		{
+			"id": "W0720149H2Q8K9RU",
+			"type": "particles",
+			"name": "Fire",
+			"temp": "VOFIGD9EB0NA0SH3",
+			"color": "#800045",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": -196.20792,
+				"POS_Y": 266.64136,
+				"POS_Z": 438.48502
+			},
+			"keyframes": {
+				"1": {
+					"POS_X": 0,
+					"POS_Y": 0,
+					"POS_Z": 0
+				}
+			},
+			"parent": "27URQIOHMAXVRP3Z",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		},
 		{
 			"id": "27URQIOHMAXVRP3Z",
 			"type": "cube",
@@ -344,7 +765,7 @@
 				"POS_Z": 596.23596
 			},
 			"keyframes": {
-				"28": {
+				"0": {
 					"POS_X": 2338.72029,
 					"POS_Y": -2500,
 					"POS_Z": 3768.7304,
@@ -354,9 +775,23 @@
 					"SCA_X": 10,
 					"SCA_Y": 10,
 					"SCA_Z": 10,
+					"RGB_MUL": "#FCFA38",
 					"TRANSITION": "easeinsine"
 				},
-				"57": {
+				"7": {
+					"POS_X": 2338.72029,
+					"POS_Y": -2500,
+					"POS_Z": 3768.7304,
+					"ROT_X": -34.9025,
+					"ROT_Y": -99.86581,
+					"ROT_Z": 71.56505,
+					"SCA_X": 10,
+					"SCA_Y": 10,
+					"SCA_Z": 10,
+					"RGB_MUL": "#FF7B10",
+					"TRANSITION": "easeinsine"
+				},
+				"60": {
 					"POS_X": 3302.92308,
 					"POS_Y": -2858.26733,
 					"POS_Z": 492.43403,
@@ -366,6 +801,7 @@
 					"SCA_X": 10,
 					"SCA_Y": 10,
 					"SCA_Z": 10,
+					"RGB_MUL": "#FF0000",
 					"TRANSITION": "easeinsine"
 				}
 			},
@@ -385,8 +821,8 @@
 				"rot_point": false
 			},
 			"scale_resize": true,
-			"rot_point_custom": false,
-			"rot_point": [ 0, -8, 0 ],
+			"rot_point_custom": true,
+			"rot_point": [ -4, -4, -4 ],
 			"backfaces": false,
 			"texture_blur": false,
 			"texture_filtering": false,
@@ -408,6 +844,19 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"65": {
+					"BG_FOG_DISTANCE": 9000
+				},
+				"172": {
+					"BG_SKY_COLOR": "#F3F3F3",
+					"BG_FOG_COLOR": "#FFFFFF",
+					"BG_FOG_DISTANCE": 20
+				},
+				"205": {
+					"BG_SKY_COLOR": "#F3F3F3",
+					"BG_FOG_COLOR": "#FFFFFF",
+					"BG_FOG_DISTANCE": 2000
+				}
 			},
 			"parent": "root",
 			"parent_tree_index": 18
@@ -468,6 +917,22 @@
 					"POS_Z": 483.56709,
 					"ROT_X": -5.1,
 					"ROT_Z": 500.00522,
+					"CAM_FOV": 47
+				},
+				"80": {
+					"POS_X": -244.0487,
+					"POS_Y": 372.75829,
+					"POS_Z": 512.1706,
+					"ROT_X": -0.975,
+					"ROT_Z": 497.88022,
+					"CAM_FOV": 47
+				},
+				"89": {
+					"POS_X": -244.0487,
+					"POS_Y": 372.75829,
+					"POS_Z": 512.1706,
+					"ROT_X": -3.6,
+					"ROT_Z": 505.00522,
 					"CAM_FOV": 47
 				}
 			},
@@ -586,6 +1051,11 @@
 					"ROT_X": 30.35321,
 					"ROT_Z": -89.31845,
 					"BEND_ANGLE_X": 49.73712
+				},
+				"29": {
+					"ROT_X": 30.35321,
+					"ROT_Z": -89.31845,
+					"BEND_ANGLE_X": 13.90368
 				}
 			},
 			"parent": "3OH2Y7XW0QN3QWK7",
@@ -631,6 +1101,18 @@
 					"ROT_X": 35.38426,
 					"ROT_Z": 106.81879,
 					"BEND_ANGLE_X": 69.50449
+				},
+				"24": {
+					"ROT_X": 148.96756,
+					"ROT_Y": -31.57406,
+					"ROT_Z": 106.81879,
+					"BEND_ANGLE_X": -15.1736
+				},
+				"56": {
+					"ROT_X": 155.01674,
+					"ROT_Y": -87.50797,
+					"ROT_Z": 106.81879,
+					"BEND_ANGLE_X": -15.1736
 				}
 			},
 			"parent": "3OH2Y7XW0QN3QWK7",
@@ -712,11 +1194,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"24": {
+					"ROT_X": -5.10462
+				}
 			},
 			"parent": "3OH2Y7XW0QN3QWK7",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -807,6 +1292,18 @@
 					"POS_Y": 233.14601,
 					"POS_Z": 447.96278,
 					"ROT_Z": 1.05643
+				},
+				"11": {
+					"POS_X": -157.66297,
+					"POS_Y": 233.14601,
+					"POS_Z": 447.96278,
+					"ROT_Z": 5.44299
+				},
+				"24": {
+					"POS_X": -157.66297,
+					"POS_Y": 233.14601,
+					"POS_Z": 447.96278,
+					"ROT_Z": 123.09591
 				}
 			},
 			"parent": "root",
@@ -2734,6 +3231,12 @@
 					"POS_X": -134.0206,
 					"POS_Y": 254.43683,
 					"POS_Z": 448.63172
+				},
+				"132": {
+					"POS_X": -134.0206,
+					"POS_Y": 254.43683,
+					"POS_Z": 448.63172,
+					"VISIBLE": false
 				}
 			},
 			"parent": "root",
@@ -2868,6 +3371,17 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"120": {
+					"ROT_Y": -42.3191
+				},
+				"122": {
+					"ROT_Y": -47.10606,
+					"ROT_Z": -44.66153
+				},
+				"130": {
+					"ROT_Y": -47.10606,
+					"ROT_Z": -15.44251
+				}
 			},
 			"parent": "ZJ1D47PW42E9362E",
 			"parent_tree_index": 0,
@@ -2913,6 +3427,30 @@
 					"ROT_Y": 159.59134,
 					"ROT_Z": -50.27351,
 					"BEND_ANGLE_X": 60.42757
+				},
+				"106": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 95.84534,
+					"ROT_Z": -50.27351,
+					"BEND_ANGLE_X": 9.51409
+				},
+				"113": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 47.5577,
+					"ROT_Z": -63.13697,
+					"BEND_ANGLE_X": 6.15188
+				},
+				"130": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 123.74058,
+					"ROT_Z": -20.97454,
+					"BEND_ANGLE_X": -2.01349
+				},
+				"138": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 159.59134,
+					"ROT_Z": -50.27351,
+					"BEND_ANGLE_X": -5.85602
 				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
@@ -2957,6 +3495,33 @@
 				"0": {
 					"ROT_Y": -76.40593,
 					"BEND_ANGLE_X": 96.44865
+				},
+				"106": {
+					"ROT_X": 26.43361,
+					"ROT_Y": -150.05645,
+					"BEND_ANGLE_X": 25.11194
+				},
+				"113": {
+					"ROT_X": 77.45824,
+					"ROT_Y": -212.88631,
+					"ROT_Z": -18.39896,
+					"BEND_ANGLE_X": 0.13102
+				},
+				"122": {
+					"ROT_X": 67.70029,
+					"ROT_Y": -198.27184,
+					"ROT_Z": 3.34792,
+					"BEND_ANGLE_X": 1.37134
+				},
+				"127": {
+					"ROT_X": 52.39666,
+					"ROT_Y": -190.1527,
+					"ROT_Z": 8.54051,
+					"BEND_ANGLE_X": 2.0604
+				},
+				"138": {
+					"ROT_Y": -172.29057,
+					"BEND_ANGLE_X": 3.57633
 				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
@@ -2998,11 +3563,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"130": {
+					"ROT_Z": 46.89896
+				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -3092,12 +3660,32 @@
 					"POS_X": -192.91519,
 					"POS_Y": 254.63939,
 					"POS_Z": 511.27162
+				},
+				"26": {
+					"POS_X": -205.60873,
+					"POS_Y": 254.63939,
+					"POS_Z": 511.27162,
+					"ROT_Z": 96.86305
+				},
+				"106": {
+					"POS_X": -205.60873,
+					"POS_Y": 254.63939,
+					"POS_Z": 511.27162,
+					"ROT_Z": 98.53076
+				},
+				"138": {
+					"POS_X": -231.19145,
+					"POS_Y": 254.63939,
+					"POS_Z": 526.74936,
+					"ROT_X": -15.9454,
+					"ROT_Y": -86.76031,
+					"ROT_Z": -4.18491
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 7,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -4110,12 +4698,45 @@
 			"keyframes": {
 				"0": {
 					"POS_X": -200,
-					"POS_Y": 283.0241,
-					"POS_Z": 515.95918,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
 					"ROT_Y": 90,
 					"SCA_X": 2,
 					"SCA_Y": 3,
 					"SCA_Z": 0.05
+				},
+				"92": {
+					"POS_X": -200,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -1.50745,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeoutbounce"
+				},
+				"126": {
+					"POS_X": -200,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeinsine"
+				},
+				"162": {
+					"POS_X": -296.52666,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeoutbounce"
 				}
 			},
 			"parent": "root",
@@ -4134,8 +4755,8 @@
 				"rot_point": false
 			},
 			"scale_resize": true,
-			"rot_point_custom": false,
-			"rot_point": [ 8, 0, 8 ],
+			"rot_point_custom": true,
+			"rot_point": [ 0, 0, 0 ],
 			"backfaces": false,
 			"texture_blur": false,
 			"texture_filtering": true,
@@ -5285,6 +5906,21 @@
 			"id": "9FWF53EO7134N479",
 			"type": "texture",
 			"filename": "snow.png"
+		},
+		{
+			"id": "BFVLYUP831N8JS94",
+			"type": "particlesheet",
+			"filename": "snowflake1.png"
+		},
+		{
+			"id": "682DJZ55637Q6I4L",
+			"type": "particlesheet",
+			"filename": "snowflake2.png"
+		},
+		{
+			"id": "IREXQVZ5OQMV177G",
+			"type": "texture",
+			"filename": "snowflake3.png"
 		}
 	]
 }
