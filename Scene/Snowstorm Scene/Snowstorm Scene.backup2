@@ -11,7 +11,7 @@
 		"tempo": 18,
 		"timeline": {
 			"repeat": false,
-			"marker": 132,
+			"marker": 81,
 			"list_width": 320,
 			"hor_scroll": 0,
 			"zoom": 6,
@@ -19,11 +19,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ -134.0206, 448.63171, 254.43683 ],
-			"angle_xy": 208.79167,
-			"angle_z": 60.55875,
+			"focus": [ -188.78291, 510.53052, 340.23901 ],
+			"angle_xy": 226.37009,
+			"angle_z": 33.04145,
 			"roll": 0,
-			"zoom": 111.17434
+			"zoom": 122.20805
 		}
 	},
 	"background": {
@@ -50,7 +50,7 @@
 		"ground_name": "blocks/grass_top",
 		"ground_tex": "default",
 		"biome": "plains",
-		"sky_color": "#CEDDF7",
+		"sky_color": "#A0C2FD",
 		"sky_clouds_color": "#FFFFFF",
 		"sunlight_color": "#FFFFFF",
 		"ambient_color": "#808080",
@@ -58,8 +58,8 @@
 		"fog_show": true,
 		"fog_sky": true,
 		"fog_color_custom": true,
-		"fog_color": "#D6E5FF",
-		"fog_distance": 3377.00935,
+		"fog_color": "#A1C3FF",
+		"fog_distance": 7657.19626,
 		"fog_size": 2000,
 		"fog_height": 1000,
 		"wind": true,
@@ -527,7 +527,7 @@
 			"type": "particles",
 			"name": "Snow Particles",
 			"particles": {
-				"spawn_constant": false,
+				"spawn_constant": true,
 				"spawn_amount": 2000,
 				"spawn_region_use": true,
 				"spawn_region_type": "box",
@@ -1304,12 +1304,19 @@
 					"POS_Y": 233.14601,
 					"POS_Z": 447.96278,
 					"ROT_Z": 123.09591
+				},
+				"137": {
+					"POS_X": -157.66297,
+					"POS_Y": 233.14601,
+					"POS_Z": 447.96278,
+					"ROT_X": 79.31509,
+					"ROT_Z": 101.59217
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 16,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2278,7 +2285,7 @@
 			"parent": "9S725HQF7LV7AUOB",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2369,12 +2376,19 @@
 					"POS_Y": 264.25222,
 					"POS_Z": 448.62402,
 					"ROT_Z": -125.24971
+				},
+				"146": {
+					"POS_X": -104.71886,
+					"POS_Y": 264.25222,
+					"POS_Z": 448.62402,
+					"ROT_Y": -70.8187,
+					"ROT_Z": -126.69841
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 13,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2497,6 +2511,12 @@
 				"0": {
 					"BEND_ANGLE_X": 32.93015,
 					"BEND_ANGLE_Z": 15.28281
+				},
+				"143": {
+				},
+				"150": {
+					"ROT_X": 87.25553,
+					"BEND_ANGLE_Z": -11.34061
 				}
 			},
 			"parent": "D2VJB430L6S1GUQ9",
@@ -2733,7 +2753,7 @@
 			"parent": "root",
 			"parent_tree_index": 12,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -2860,6 +2880,10 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"142": {
+					"ROT_X": 77.46774,
+					"ROT_Z": -8.98285
+				}
 			},
 			"parent": "GH84D48OLESO36C1",
 			"parent_tree_index": 0,
@@ -2990,7 +3014,7 @@
 			"parent": "411T47WYM7S15JM8",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -3087,7 +3111,7 @@
 			"parent": "root",
 			"parent_tree_index": 11,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,

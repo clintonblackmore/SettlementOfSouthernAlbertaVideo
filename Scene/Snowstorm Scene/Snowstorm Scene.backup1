@@ -654,7 +654,7 @@
 			"name": "Snow",
 			"temp": "WJM3ZQ1A8JV1WLO3",
 			"color": "#800042",
-			"hide": true,
+			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"default_values": {

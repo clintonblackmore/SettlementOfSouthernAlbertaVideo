@@ -11,19 +11,19 @@
 		"tempo": 18,
 		"timeline": {
 			"repeat": false,
-			"marker": 138,
+			"marker": 132,
 			"list_width": 320,
-			"hor_scroll": 15,
+			"hor_scroll": 0,
 			"zoom": 6,
 			"region_start": "null",
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ -208.71249, 494.25604, 340.23901 ],
-			"angle_xy": 205.131,
-			"angle_z": 12.13652,
+			"focus": [ -134.0206, 448.63171, 254.43683 ],
+			"angle_xy": 208.79167,
+			"angle_z": 60.55875,
 			"roll": 0,
-			"zoom": 216.84908
+			"zoom": 111.17434
 		}
 	},
 	"background": {
@@ -50,7 +50,7 @@
 		"ground_name": "blocks/grass_top",
 		"ground_tex": "default",
 		"biome": "plains",
-		"sky_color": "#D4E1F7",
+		"sky_color": "#CEDDF7",
 		"sky_clouds_color": "#FFFFFF",
 		"sunlight_color": "#FFFFFF",
 		"ambient_color": "#808080",
@@ -58,8 +58,8 @@
 		"fog_show": true,
 		"fog_sky": true,
 		"fog_color_custom": true,
-		"fog_color": "#DCE9FF",
-		"fog_distance": 2873.45794,
+		"fog_color": "#D6E5FF",
+		"fog_distance": 3377.00935,
 		"fog_size": 2000,
 		"fog_height": 1000,
 		"wind": true,
@@ -654,7 +654,7 @@
 			"name": "Snow",
 			"temp": "WJM3ZQ1A8JV1WLO3",
 			"color": "#800042",
-			"hide": false,
+			"hide": true,
 			"lock": false,
 			"depth": 0,
 			"default_values": {
@@ -851,6 +851,11 @@
 					"BG_SKY_COLOR": "#F3F3F3",
 					"BG_FOG_COLOR": "#FFFFFF",
 					"BG_FOG_DISTANCE": 20
+				},
+				"205": {
+					"BG_SKY_COLOR": "#F3F3F3",
+					"BG_FOG_COLOR": "#FFFFFF",
+					"BG_FOG_DISTANCE": 2000
 				}
 			},
 			"parent": "root",
@@ -920,6 +925,14 @@
 					"POS_Z": 512.1706,
 					"ROT_X": -0.975,
 					"ROT_Z": 497.88022,
+					"CAM_FOV": 47
+				},
+				"89": {
+					"POS_X": -244.0487,
+					"POS_Y": 372.75829,
+					"POS_Z": 512.1706,
+					"ROT_X": -3.6,
+					"ROT_Z": 505.00522,
 					"CAM_FOV": 47
 				}
 			},
@@ -3218,6 +3231,12 @@
 					"POS_X": -134.0206,
 					"POS_Y": 254.43683,
 					"POS_Z": 448.63172
+				},
+				"132": {
+					"POS_X": -134.0206,
+					"POS_Y": 254.43683,
+					"POS_Z": 448.63172,
+					"VISIBLE": false
 				}
 			},
 			"parent": "root",
@@ -3352,6 +3371,17 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"120": {
+					"ROT_Y": -42.3191
+				},
+				"122": {
+					"ROT_Y": -47.10606,
+					"ROT_Z": -44.66153
+				},
+				"130": {
+					"ROT_Y": -47.10606,
+					"ROT_Z": -15.44251
+				}
 			},
 			"parent": "ZJ1D47PW42E9362E",
 			"parent_tree_index": 0,
@@ -3397,6 +3427,30 @@
 					"ROT_Y": 159.59134,
 					"ROT_Z": -50.27351,
 					"BEND_ANGLE_X": 60.42757
+				},
+				"106": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 95.84534,
+					"ROT_Z": -50.27351,
+					"BEND_ANGLE_X": 9.51409
+				},
+				"113": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 47.5577,
+					"ROT_Z": -63.13697,
+					"BEND_ANGLE_X": 6.15188
+				},
+				"130": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 123.74058,
+					"ROT_Z": -20.97454,
+					"BEND_ANGLE_X": -2.01349
+				},
+				"138": {
+					"ROT_X": 1.13043,
+					"ROT_Y": 159.59134,
+					"ROT_Z": -50.27351,
+					"BEND_ANGLE_X": -5.85602
 				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
@@ -3441,6 +3495,33 @@
 				"0": {
 					"ROT_Y": -76.40593,
 					"BEND_ANGLE_X": 96.44865
+				},
+				"106": {
+					"ROT_X": 26.43361,
+					"ROT_Y": -150.05645,
+					"BEND_ANGLE_X": 25.11194
+				},
+				"113": {
+					"ROT_X": 77.45824,
+					"ROT_Y": -212.88631,
+					"ROT_Z": -18.39896,
+					"BEND_ANGLE_X": 0.13102
+				},
+				"122": {
+					"ROT_X": 67.70029,
+					"ROT_Y": -198.27184,
+					"ROT_Z": 3.34792,
+					"BEND_ANGLE_X": 1.37134
+				},
+				"127": {
+					"ROT_X": 52.39666,
+					"ROT_Y": -190.1527,
+					"ROT_Z": 8.54051,
+					"BEND_ANGLE_X": 2.0604
+				},
+				"138": {
+					"ROT_Y": -172.29057,
+					"BEND_ANGLE_X": 3.57633
 				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
@@ -3482,11 +3563,14 @@
 			"default_values": {
 			},
 			"keyframes": {
+				"130": {
+					"ROT_Z": 46.89896
+				}
 			},
 			"parent": "J2XQ36VGB1L1RNWE",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -3582,12 +3666,26 @@
 					"POS_Y": 254.63939,
 					"POS_Z": 511.27162,
 					"ROT_Z": 96.86305
+				},
+				"106": {
+					"POS_X": -205.60873,
+					"POS_Y": 254.63939,
+					"POS_Z": 511.27162,
+					"ROT_Z": 98.53076
+				},
+				"138": {
+					"POS_X": -231.19145,
+					"POS_Y": 254.63939,
+					"POS_Z": 526.74936,
+					"ROT_X": -15.9454,
+					"ROT_Y": -86.76031,
+					"ROT_Z": -4.18491
 				}
 			},
 			"parent": "root",
 			"parent_tree_index": 7,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -4600,12 +4698,45 @@
 			"keyframes": {
 				"0": {
 					"POS_X": -200,
-					"POS_Y": 283.0241,
-					"POS_Z": 515.95918,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
 					"ROT_Y": 90,
 					"SCA_X": 2,
 					"SCA_Y": 3,
 					"SCA_Z": 0.05
+				},
+				"92": {
+					"POS_X": -200,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -1.50745,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeoutbounce"
+				},
+				"126": {
+					"POS_X": -200,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeinsine"
+				},
+				"162": {
+					"POS_X": -296.52666,
+					"POS_Y": 260.14769,
+					"POS_Z": 499.71797,
+					"ROT_Y": 90,
+					"ROT_Z": -90,
+					"SCA_X": 2,
+					"SCA_Y": 3,
+					"SCA_Z": 0.05,
+					"TRANSITION": "easeoutbounce"
 				}
 			},
 			"parent": "root",
@@ -4624,8 +4755,8 @@
 				"rot_point": false
 			},
 			"scale_resize": true,
-			"rot_point_custom": false,
-			"rot_point": [ 8, 0, 8 ],
+			"rot_point_custom": true,
+			"rot_point": [ 0, 0, 0 ],
 			"backfaces": false,
 			"texture_blur": false,
 			"texture_filtering": true,
