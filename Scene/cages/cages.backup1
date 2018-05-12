@@ -1,0 +1,136 @@
+{
+	"format": 27,
+	"created_in": "1.1.4",
+	"project": {
+		"name": "cages",
+		"author": "",
+		"description": "",
+		"video_width": 1280,
+		"video_height": 720,
+		"video_keep_aspect_ratio": true,
+		"tempo": 24,
+		"timeline": {
+			"repeat": false,
+			"marker": 0,
+			"list_width": 320,
+			"hor_scroll": 0,
+			"zoom": 16,
+			"region_start": "null",
+			"region_end": "null"
+		},
+		"work_camera": {
+			"focus": [ -529.14083, 614.21125, 1883.39303 ],
+			"angle_xy": 255,
+			"angle_z": 19.125,
+			"roll": 0,
+			"zoom": 99.99997
+		}
+	},
+	"background": {
+		"image_show": false,
+		"image": "null",
+		"image_type": "image",
+		"image_stretch": true,
+		"image_box_mapped": false,
+		"sky_sun_tex": "default",
+		"sky_moon_tex": "default",
+		"sky_moon_phase": 0,
+		"sky_time": -45,
+		"sky_rotation": 0,
+		"sunlight_range": 2000,
+		"sunlight_follow": false,
+		"sky_clouds_show": true,
+		"sky_clouds_flat": false,
+		"sky_clouds_tex": "default",
+		"sky_clouds_speed": 1,
+		"sky_clouds_z": 1000,
+		"sky_clouds_size": 192,
+		"sky_clouds_height": 64,
+		"ground_show": true,
+		"ground_name": "blocks/grass_top",
+		"ground_tex": "default",
+		"biome": "plains",
+		"sky_color": "#91B9FF",
+		"sky_clouds_color": "#FFFFFF",
+		"sunlight_color": "#FFFFFF",
+		"ambient_color": "#808080",
+		"night_color": "#0E0E18",
+		"fog_show": true,
+		"fog_sky": true,
+		"fog_color_custom": false,
+		"fog_color": "#91B9FF",
+		"fog_distance": 10000,
+		"fog_size": 2000,
+		"fog_height": 1000,
+		"wind": true,
+		"wind_speed": 0.1,
+		"wind_strength": 0.5,
+		"opaque_leaves": false,
+		"texture_animation_speed": 0.25
+	},
+	"templates": [
+		{
+			"id": "13ZYAZ7Z20175JUF",
+			"type": "scenery",
+			"name": "",
+			"scenery": "67RSJ4C2860F4F5D",
+			"block": {
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		}
+	],
+	"timelines": [
+		{
+			"id": "MSJ8SV85DC216D3Y",
+			"type": "scenery",
+			"name": "",
+			"temp": "13ZYAZ7Z20175JUF",
+			"color": "#807500",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+			],
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "root",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 1072, 0, 992 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true
+		}
+	],
+	"resources": [
+		{
+			"id": "67RSJ4C2860F4F5D",
+			"type": "schematic",
+			"filename": "Piece of New World cage.schematic",
+			"scenery_tl_add": true
+		}
+	]
+}
